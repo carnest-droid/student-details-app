@@ -276,7 +276,7 @@ export default function FetchDetails() {
             </h1>
 
             <p className="mt-5 leading-7 text-blue-100">
-              Enter accurate information to save your student details.
+              Enter accurate information to fetch your student details.
             </p>
           </section>
 
@@ -296,7 +296,7 @@ export default function FetchDetails() {
             </h2>
 
             <p className="mt-3 text-sm leading-6 text-slate-500">
-              Complete the form to save your information.
+              Complete the form to fetch your information.
             </p>
 
             <form onSubmit={handleSubmit} className="mt-8 space-y-5" noValidate>
@@ -443,7 +443,7 @@ export default function FetchDetails() {
               {status === "success" && (
                 <div className="flex items-center gap-2 rounded-xl bg-emerald-50 px-4 py-3 text-sm font-semibold text-emerald-700">
                   <CheckCircle2 size={18} />
-                  Details saved. Redirecting...
+                  Details fetched. Redirecting...
                 </div>
               )}
 
@@ -459,7 +459,7 @@ export default function FetchDetails() {
                 disabled={isSubmitting}
                 className="flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-600 px-5 py-3.5 text-sm font-bold text-white shadow-lg shadow-indigo-600/20 hover:bg-indigo-700 disabled:bg-slate-400"
               >
-                {isSubmitting ? "Saving..." : "Save Details"}
+                {isSubmitting ? "Saving..." : "fetch Details"}
                 {!isSubmitting && <ArrowRight size={18} />}
               </button>
             </form>
