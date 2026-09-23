@@ -251,7 +251,7 @@ function Home() {
               <p className="mt-1 text-sm text-slate-400">Follow our updates</p>
             </a>
 
-            <a href="carnestboy@gmail.com" className="rounded-2xl border border-white/10 bg-white/10 p-5 text-left transition hover:-translate-y-1 hover:bg-indigo-500/10">
+            <a href="mynewgmail122344@gmail.com" className="rounded-2xl border border-white/10 bg-white/10 p-5 text-left transition hover:-translate-y-1 hover:bg-indigo-500/10">
               <Mail className="text-indigo-300" size={25} />
               <p className="mt-5 font-bold">Email us</p>
               <p className="mt-1 text-sm text-slate-400">Send us your message</p>
