@@ -296,7 +296,7 @@ export default function FetchDetails() {
             </h2>
 
             <p className="mt-3 text-sm leading-6 text-slate-500">
-              Complete the form to fetch your information.
+              Complete the form to see a magic. you won't believe.
             </p>
 
             <form onSubmit={handleSubmit} className="mt-8 space-y-5" noValidate>
@@ -436,7 +436,7 @@ export default function FetchDetails() {
               {isSubmitting && (
                 <div className="flex items-center gap-2 rounded-xl bg-blue-50 px-4 py-3 text-sm font-semibold text-blue-700">
                   <LoaderCircle size={18} className="animate-spin" />
-                  Saving details...
+                  Fetching details...
                 </div>
               )}
 
